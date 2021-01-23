@@ -13,6 +13,7 @@
     "pretty": true, 
     "baseUrl": "./dist/",   
     "esModuleInterop": true, 
+    "sourceMap": true,    
   },
   "include":[
     "**/*.ts",
