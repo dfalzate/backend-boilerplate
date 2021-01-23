@@ -3,8 +3,9 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import http from 'http'
 import cors from 'cors'
-require('./db')
 const app = express()
+
+require('../config/db.config')
 
 app.use(express.json())
 app.use(cors())
