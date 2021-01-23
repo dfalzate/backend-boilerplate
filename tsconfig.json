@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "typeRoots": ["typings","node_modules/@types"], 
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,        
+    "pretty": true, 
+    "baseUrl": "./dist/",   
+    "esModuleInterop": true, 
+  },
+  "include":[
+    "**/*.ts",
+    "**/*.json",
+    "**/*.js"
+],
+"exclude": [
+    "node_modules",
+    "dist",  
+    "package-lock.json",
+    "tsconfig.json",    
+    "config/env.json"
+  ]
+}
